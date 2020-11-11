@@ -3,7 +3,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const logger = require("morgan");
 const routes = require("./routes/html-routes");
-// const db = require("./models");
+
 
 // Port Set-up
 const PORT = process.env.PORT || 3000;
@@ -22,6 +22,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/fitness", {
 });
 
 app.use("/", routes);
+
 
 app.listen(PORT, function () {
   console.log(`Now listening on port: ${PORT}`);
