@@ -38,4 +38,14 @@ apiRouter.put("/api/workouts/:id", (req, res) => {
     });
 });
 
+apiRouter.get("/api/workouts/range", (req, res) => {
+    db.Workout.find({})
+      .then(allWorkouts => {
+          while (allWorkouts.length > 7) {
+              let first = allWorkouts.shift();
+          }
+          res.json(allWorkouts);
+      })
+})
+
 module.exports = apiRouter;
