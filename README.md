@@ -3,7 +3,7 @@
   ![GitHub](https://img.shields.io/github/license/k1te-m/Fitness-Tracker)![GitHub top language](https://img.shields.io/github/languages/top/k1te-m/Fitness-Tracker)
 
   ## Description
-  An applicaiton that allows a user to track their workouts over a given period of time. The user is first prompted to create a work and enter all excercise information. They may continue adding exercises until finished. Once done, the complete workout button is clicked and a variety of information about the workout is displayed. Further, the user can access a clean dashboard giving them information on all of their workouts. The applicaiton utilizes express and mongoose, along with a MongoDB Atlas database.
+  An application that allows a user to track their workouts over a given period of time. The user is first prompted to create a work and enter all excercise information. They may continue adding exercises until finished. Once done, the complete workout button is clicked and a variety of information about the workout is displayed. Further, the user can access a clean dashboard giving them information on all of their workouts. The applicaiton utilizes express and mongoose, along with a MongoDB Atlas database.
 
   ## Table of Contents
   * [Installation](#installation)
